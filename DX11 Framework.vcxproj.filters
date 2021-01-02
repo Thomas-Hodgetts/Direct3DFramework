@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Models &amp; Textures">
+      <UniqueIdentifier>{d8a43dc9-7be2-409f-8b28-bc1dc59d608a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{69a11e97-675b-4580-a6c4-a82d37d37416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Framework">
+      <UniqueIdentifier>{35cdf7e4-5c85-4807-b290-0c3ee7211a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Framework\ObjectClass">
+      <UniqueIdentifier>{717bab23-d23b-4f4c-a0bc-c9561485e844}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Framework\Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Assets\Framework\Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="Assets\Framework\System">
+      <UniqueIdentifier>{0f471002-936b-4456-af0a-2ba09a2c97f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Framework\Loaders">
+      <UniqueIdentifier>{d6b07964-5464-4c9e-b5b1-93aed6e17691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Framework\Loaders\OBJ">
+      <UniqueIdentifier>{752df0de-274a-4d17-b206-fe7d3ff27752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Framework\Loaders\Textures">
+      <UniqueIdentifier>{f6f9bff2-cc37-471e-a095-132141977591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Framework\ObjectClass\Headers">
+      <UniqueIdentifier>{ed4d7842-1ba4-4e05-b0ca-25289aa452fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Framework\ObjectClass\CPP">
+      <UniqueIdentifier>{f006b151-cfa0-4dc8-94fc-d201c9299184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\3D Scene">
+      <UniqueIdentifier>{4b6518a1-6b53-4608-9e86-87db41b6a7f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Framework\Input">
+      <UniqueIdentifier>{e52e9ab5-a440-4ab8-9b7f-43bd66c4daf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Framework\Input\Keyboard">
+      <UniqueIdentifier>{0c8c8eed-b83e-490e-a702-4fbc382811eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Framework\Input\Mouse">
+      <UniqueIdentifier>{6a8d1d55-7e40-46aa-8f2a-632025c48a55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\3D Scene\Shapes">
+      <UniqueIdentifier>{7338157c-4e2b-41e6-94c6-594b2bfa1681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\3D Scene\Shapes\Cube">
+      <UniqueIdentifier>{c9d02e21-7fcb-4a2a-a960-5efbd73ab902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Framework\System\System Resources">
+      <UniqueIdentifier>{6dfdd36a-6f9f-4d2a-a369-da1d19a1c2da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Framework\Camera">
+      <UniqueIdentifier>{5aea408e-7bdc-4e40-981a-afa332abe8c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code diagrams">
+      <UniqueIdentifier>{781a3aee-5370-4acf-8f50-dd955ed5edaf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="System.h">
+      <Filter>Assets\Framework\System</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJLoader.h">
+      <Filter>Assets\Framework\Loaders\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>Assets\Framework\Loaders\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardInput.h">
+      <Filter>Assets\Framework\Input\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseInput.h">
+      <Filter>Assets\Framework\Input\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader.h">
+      <Filter>Assets\Framework\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Assets\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Structures.h">
+      <Filter>Assets\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicalObject.h">
+      <Filter>Assets\Framework\ObjectClass\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Assets\Framework\ObjectClass\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectController.h">
+      <Filter>Assets\Framework\ObjectClass\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Assets\3D Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Assets\3D Scene\Shapes\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="Flotilla.h">
+      <Filter>Assets\Framework\System\System Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Assets\3D Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Assets\Framework\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="ImaginaryObject.h">
+      <Filter>Assets\Framework\ObjectClass\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Assets\3D Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Billboard.h">
+      <Filter>Assets\3D Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>Assets\3D Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="System.cpp">
+      <Filter>Assets\Framework\System</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>Assets\Framework\Loaders\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardInput.cpp">
+      <Filter>Assets\Framework\Input\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseInput.cpp">
+      <Filter>Assets\Framework\Input\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader.cpp">
+      <Filter>Assets\Framework\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Assets\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="DX11 Framework.cpp">
+      <Filter>Assets\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicalObject.cpp">
+      <Filter>Assets\Framework\ObjectClass\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectController.cpp">
+      <Filter>Assets\Framework\ObjectClass\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Assets\Framework\ObjectClass\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Assets\3D Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Assets\3D Scene\Shapes\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="Flotilla.cpp">
+      <Filter>Assets\Framework\System\System Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Assets\3D Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Assets\Framework\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="ImaginaryObject.cpp">
+      <Filter>Assets\Framework\ObjectClass\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Assets\3D Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Billboard.cpp">
+      <Filter>Assets\3D Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>Assets\3D Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJLoader.cpp">
+      <Filter>Assets\Framework\Loaders\OBJ</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Assets\Framework\Resource Files</Filter>
+    </CLInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DX11 Framework.rc">
+      <Filter>Assets\Framework\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Airplane\Hercules_COLOR.dds">
+      <Filter>Models &amp; Textures</Filter>
+    </Image>
+    <Image Include="Crate_COLOR.dds">
+      <Filter>Models &amp; Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DX11 Framework.fx">
+      <Filter>Assets\Framework\Shaders</Filter>
+    </None>
+    <None Include="MeshManipulate.fx">
+      <Filter>Assets\Framework\Shaders</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd">
+      <Filter>Code diagrams</Filter>
+    </None>
+  </ItemGroup>
+</Project>

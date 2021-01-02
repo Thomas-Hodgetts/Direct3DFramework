@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Application">
+    <Position X="15.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KCSAEGILPxqEA5oBIgEUQAAACCCCQJeFQCZIAUJAQUI=</HashCode>
+      <FileName>Application.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImaginaryObject">
+    <Position X="11" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImaginaryObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Object">
+    <Position X="13.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAAAAAAIAAgAABAAAA=</HashCode>
+      <FileName>Object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectController">
+    <Position X="11" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAIAAAAIAAAQAAAAAAIAAAAAIAAAAAAA=</HashCode>
+      <FileName>ObjectController.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhysicalObject">
+    <Position X="14" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAAwAABAlAAEAAEAEAAAACABigAUAA4AAAAABA=</HashCode>
+      <FileName>PhysicalObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System">
+    <Position X="17.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MCSAAAIACICAAhgAAgFAAAAICAAAgIKAAARgQAJBQwI=</HashCode>
+      <FileName>System.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Flotilla">
+    <Position X="13.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAABAgBAAAAAAAQABAAACACgggAgAAAAAAI=</HashCode>
+      <FileName>Flotilla.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Loader">
+    <Position X="10.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAIAAAAAgAAAAAAAAACEAA=</HashCode>
+      <FileName>Loader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KeyboardInput">
+    <Position X="20.5" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIQIAAACAgAAAIAAAAAAAAAAACAAAChAQAAAQBA=</HashCode>
+      <FileName>KeyboardInput.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MouseInput">
+    <Position X="20.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAgAAABAAAAAAAAAICAEBgAA=</HashCode>
+      <FileName>MouseInput.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Camera">
+    <Position X="11" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQDAAAAAAAABYkA2CgAAAIgSDZUIAAAAMBQQJAAAAA=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Billboard">
+    <Position X="26.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAAAAAAAAAAAAAIAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Billboard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ground">
+    <Position X="29.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAIAAAAAAAAAA=</HashCode>
+      <FileName>Ground.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Plane">
+    <Position X="34" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Plane.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player">
+    <Position X="24" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAACAAAAAAAAJQBUAAAIEAAAAAAAQAAABA=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Window">
+    <Position X="31.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAEAAAAAACAAAAAA=</HashCode>
+      <FileName>Window.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cube">
+    <Position X="36.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAEBAAAAAAAAAAAA=</HashCode>
+      <FileName>Cube.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="MouseData">
+    <Position X="20.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAQgAAAAAAAAAAAgIAYAAAAAAAQAAAAA=</HashCode>
+      <FileName>Structures.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CameraData">
+    <Position X="12.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Structures.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CameraBufferData">
+    <Position X="12.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Structures.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BlendFactor">
+    <Position X="17.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAEAAQA=</HashCode>
+      <FileName>Structures.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SystemData">
+    <Position X="19" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACEAIBAAAAIAAAgAkAQAMDIAAACCAIAAAABBAAAAEAA=</HashCode>
+      <FileName>Structures.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ConstantBuffer">
+    <Position X="19" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAgIAAYQAAAAAAAQgAAAAAAAAAAAAAACAAABQBAAA=</HashCode>
+      <FileName>Structures.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SimpleVertex">
+    <Position X="17.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACIAAAAAAAgAABAAAA=</HashCode>
+      <FileName>Structures.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MeshData">
+    <Position X="17.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAEAAAAQAAIAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Structures.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ObjectStruct">
+    <Position X="17.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAgAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Structures.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="NormalsCalculations">
+    <Position X="19" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAQAARAEAAAQAAAAQAAAAQ=</HashCode>
+      <FileName>Structures.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DDS_PIXELFORMAT">
+    <Position X="22.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAQAAAIAAAAAAAAAAAAAAAAAAACAFIAQ=</HashCode>
+      <FileName>DDSTextureLoader.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DDS_HEADER">
+    <Position X="22.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAASAAAAAAAgQIQIAAIAAEgAAAAAAAAAAQIAAAAAQ=</HashCode>
+      <FileName>DDSTextureLoader.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DDS_HEADER_DXT10">
+    <Position X="22.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAgAAAAAAACAAAAAAAAAAAQAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>DDSTextureLoader.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="`anonymous-namespace'::handle_closer">
+    <Position X="12.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DDSTextureLoader.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="MouseButtonEvent">
+    <Position X="19" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Structures.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Axis">
+    <Position X="19" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAE=</HashCode>
+      <FileName>Structures.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DDS_MISC_FLAGS2">
+    <Position X="22.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>DDSTextureLoader.cpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DirectX::DDS_ALPHA_MODE">
+    <Position X="22.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAACAAAAAQAAAQAAAAAAAAABA=</HashCode>
+      <FileName>DDSTextureLoader.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
